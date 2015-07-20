@@ -15,7 +15,7 @@ func average(xs *[4]float64) (avg float64) {
     return
 }
 
-func main()  {
+func main(){
     arr := [4]float64{1.1, 2.0, 3.0, 5.4}
 
     avg := average(&arr)

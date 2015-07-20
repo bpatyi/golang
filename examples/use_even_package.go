@@ -10,5 +10,5 @@ func main()  {
     fmt.Println("Is %d even? %v", i, even.Even(i))
 
     // dead, because odd is a private function of even
-    // fmt.Println("Is %d even? %v", i, even.odd(i))
+    //fmt.Println("Is %d even? %v", i, even.odd(i))
 }

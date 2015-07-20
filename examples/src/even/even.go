@@ -6,7 +6,7 @@ func Even(i int) bool {
 }
 
 // private function
-func odd(int i) bool {
+func odd(i int) bool {
     return i % 2 == 1
 }
 
